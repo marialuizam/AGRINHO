@@ -5,7 +5,8 @@ background-color: blueviolet;
 }
 
 .cabecalho{
-
-    display: flex;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
 }
 
