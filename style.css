@@ -1,13 +1,13 @@
 body{
-
-    background-color: rgb(27, 0, 34);
+    width:100%;
+    background-color: rgb(96, 0, 90);
 
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(250, 38, 1);
+    background-color: rgb(75, 0, 77);
     padding: 20px;
     align-items: center;
 }
@@ -43,4 +43,23 @@ header{
 .sobre_texto{
   text-align: justify;
   width: 400px ;  
+}
+
+.elementos{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.container{
+ border: 2px solid black;
+ padding: 20px;
+ text-align: center;
+}
+
+.elementos_container-imagem{
+
+    width: 300px;
+    height: 300px;
+
 }
